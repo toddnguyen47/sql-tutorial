@@ -28,5 +28,18 @@ CREATE TABLE tablename (
 );
 ----
 
-| Show a Database
-| 
+| Show a Table. You'll need to select a DB first
+|
+[source, sql]
+----
+SHOW TABLES;
+----
+
+| Show columns from a table
+|
+[source, sql]
+----
+SHOW COLUMNS FROM table_name;
+
+DESC table_name;
+----
