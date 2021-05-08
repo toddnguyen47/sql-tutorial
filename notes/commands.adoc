@@ -1,6 +1,6 @@
 = SQL Commands
 
-[cols="d, a"]
+[cols="d, a", stripes=none]
 |===
 | Description | Command
 
