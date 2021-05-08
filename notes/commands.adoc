@@ -4,6 +4,20 @@
 |===
 | Description | Command
 
+| Show All Databases
+|
+[source, sql]
+----
+SHOW DATABASES;
+----
+
+| Use a Database
+|
+[source, sql]
+----
+Use database_name;
+----
+
 | Create a Database
 |
 [source, sql]
