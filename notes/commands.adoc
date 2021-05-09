@@ -1,5 +1,4 @@
-:source-highlighter: highlight.js
-:highlightjs-languages: sql
+:source-highlighter: rouge
 = SQL Commands
 
 [cols="d, a", stripes=none]
@@ -8,21 +7,21 @@
 
 | Show All Databases
 |
-[source, SQL]
+[source, sql]
 ----
 SHOW DATABASES;
 ----
 
 | Use a Database
 |
-[source, SQL]
+[source, sql]
 ----
 Use database_name;
 ----
 
 | Create a Database
 |
-[source, SQL]
+[source, sql]
 ----
 CREATE TABLE tablename (
   column_name data_type,
@@ -32,14 +31,14 @@ CREATE TABLE tablename (
 
 | Show a Table. You'll need to select a DB first
 |
-[source, SQL]
+[source, sql]
 ----
 SHOW TABLES;
 ----
 
 | Show columns from a table
 |
-[source, SQL]
+[source, sql]
 ----
 SHOW COLUMNS FROM table_name;
 
